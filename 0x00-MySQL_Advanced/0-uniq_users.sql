@@ -1,0 +1,6 @@
+-- Create SQL Table
+CREATE TABLE if NOT EXIST `user` (
+	`id` INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	`email` VARCHAR (255) NOT NULL UNIQUE,
+	`name` VARCHAR (255)
+);
